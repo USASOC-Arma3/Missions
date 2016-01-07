@@ -74,7 +74,6 @@ class Mission
 		"A3_Air_F_Gamma_Plane_Fighter_03",
 		"A3_Air_F_Heli_Heli_Transport_03",
 		"3DEN",
-		"A3_Air_F_EPC_Plane_CAS_01"
 	};
 	addOnsAuto[]=
 	{
@@ -139,7 +138,6 @@ class Mission
 		"A3_Structures_F_Items_Tools",
 		"A3_Soft_F_Truck",
 		"A3_Structures_F_Kart_Mil_Flags",
-		"A3_Air_F_EPC_Plane_CAS_01",
 		"a3_map_altis"
 	};
 	randomSeed=12935265;

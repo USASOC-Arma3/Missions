@@ -2,7 +2,7 @@
 
 author = Rarek, AhoyWorld, Quiksilver;					// Visible when loading mission
 onLoadName = "Invade & Annex 2.85C";						// Visible when loading mission
-OnLoadMission = "Welcome back to the home of Invade and Annex ... Join us on TeamSpeak at ts.ahoyworld.co.uk:9987";
+OnLoadMission = "Welcome back to Invade and Annex ... Join us on TeamSpeak at usasoc-us.teamspeak3.com";
 loadScreen = "media\images\loading.jpg";				// Visible when loading mission
 overviewPicture = "media\images\loading.jpg";			// Visible when selecting mission	
 
@@ -520,4 +520,15 @@ Authors:
 File Reference: 
 
 	https://community.bistudio.com/wiki/Description.ext
-*/
+*/ 
+
+#include "ATM_airdrop\dialog.hpp"
+class CfgSounds
+{
+   sounds[] = {Vent,Vent2,Para};
+
+	class Vent {name="Vent";sound[]={ATM_airdrop\data\Vent.ogg,db-11,1.0};titles[] = {};};
+	class Vent2 {name="Vent2";sound[]={ATM_airdrop\data\Vent2.ogg,db-11,1.0};titles[] = {};};
+	class Para {name="Para";sound[]={ATM_airdrop\data\parachute.ogg,db-11,1.0};titles[] = {};};
+
+};

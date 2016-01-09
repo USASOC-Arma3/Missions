@@ -13,19 +13,19 @@ _veh setFuel 0;
 
 //---------- RE-ARMING
 
-sleep 100;
+sleep 30;
 
 _veh vehicleChat "Re-arming ...";
 
 //---------- REPAIRING
 
-sleep 100;
+sleep 30;
 
 _veh vehicleChat "Repairing ...";
 
 //---------- REFUELING
 
-sleep 100;
+sleep 30;
 
 _veh vehicleChat "Refueling ...";
 

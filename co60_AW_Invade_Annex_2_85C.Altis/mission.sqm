@@ -1286,7 +1286,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14847.942,-0.049885608,14803.144};
+					position[]={14847.942,-0.14897901,14803.144};
 					class args
 					{
 						items=4;
@@ -1386,7 +1386,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14901.424,0.087085314,14803.786};
+					position[]={14901.424,0.26007271,14803.786};
 					class args
 					{
 						items=4;
@@ -1436,13 +1436,13 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14960.986,0.040236186,14803.587};
+					position[]={14960.986,0.12016188,14803.587};
 					class args
 					{
 						items=4;
 						class Item0
 						{
-							value="76561198022163272";
+							value="76561197977255420";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -1642,7 +1642,7 @@ class Mission
 						items=4;
 						class Item0
 						{
-							value="76561198004408914";
+							value="76561198058946562";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -1692,7 +1692,7 @@ class Mission
 						items=4;
 						class Item0
 						{
-							value="76561198080680196";
+							value="76561198028112235";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -2154,7 +2154,7 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					text="Foulis";
-					init="[this, [-1, -2, 0]] call bis_fnc_setcuratorvisionmodes; Danny setVariable [""showNotification"", false]";
+					init="[this, [-1, -2, 0]] call bis_fnc_setcuratorvisionmodes; Foulis setVariable [""showNotification"", false]";
 					syncId=73;
 					synchronizations[]={70};
 				};
@@ -13317,7 +13317,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=221;
+		items=223;
 		class Item0
 		{
 			position[]={-15683.114,0.0011896361,-3827.8438};
@@ -14925,6 +14925,24 @@ class Mission
 			name="FOB_CE_APC";
 			type="Empty";
 			angle=-147.85699;
+		};
+		class Item221
+		{
+			position[]={15297.607,17.637833,17408.803};
+			name="halo";
+			text="HALO Pole";
+			type="mil_marker";
+			colorName="ColorBlack";
+			a=0.5;
+			b=0.5;
+		};
+		class Item222
+		{
+			position[]={15960.48,14.598437,16809.248};
+			name="Pilot";
+			text="Please Use Pilot transport before the HALO Pole";
+			type="mil_triangle";
+			colorName="ColorRed";
 		};
 	};
 	class Sensors

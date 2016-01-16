@@ -40,7 +40,6 @@ class Mission
 		"hafm_hmmwv",
 		"A3_Structures_F_Training",
 		"A3_Characters_F_BLUFOR",
-		"cup_misc3_config",
 		"Ej_UH60M",
 		"MELB"
 	};
@@ -67,7 +66,7 @@ class Mission
 		"A3_Structures_F_Mil_Shelters",
 		"ace_common",
 		"A3_Supplies_F_Heli_CargoNets",
-		"cup_misc3_config",
+		"aia_misc3_config",
 		"A3_Structures_F_Civ_InfoBoards",
 		"A3_Soft_F_Quadbike",
 		"RHS_US_A2Port_Armor",
